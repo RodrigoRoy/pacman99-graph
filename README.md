@@ -1,20 +1,22 @@
 # PAC-MAN 99 graph generator
 
-Convert your recent stats into a graph. Super Mario 35 style.
+Simple python script to convert your recent stats into a graph. Super Mario 35 style.
 
 Useful to display your progress while you are playing online or just to track
 your progress in private sessions.
+
+![](https://raw.githubusercontent.com/RodrigoRoy/pacman99-graph/master/graph.png)
 
 ## What you need?
 
 - Python 3
 
-## Dependancies
+## Dependencies
 
 - numpy
 - matplotlib
 
-Consider using this command to get numpy and matplotlib:
+Consider using this commands to get numpy and matplotlib:
 ```sh
 pip install numpy
 pip install matplotlib
