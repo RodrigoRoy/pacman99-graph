@@ -7,7 +7,7 @@ import matplotlib.patches as patches
 # Important variables
 max_sample_num = 10
 ranks = []
-kos = []
+# kos = []
 
 # Add data from command line arguments
 line_args = sys.argv
@@ -23,7 +23,7 @@ with open('data.csv', newline='') as csv_file:
     next(csv_reader) # skip headline
     for row in csv_reader:
         ranks.append(int(row[0]))
-        kos.append(int(row[1]))
+        # kos.append(int(row[1]))
 
 # Limit the number of samples
 if len(ranks) < max_sample_num:
